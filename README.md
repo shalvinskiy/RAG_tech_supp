@@ -1,4 +1,4 @@
-# agent_lokis
+# agent
 
 Корпоративный QA-пайплайн: сравнение **zero-shot LLM** и **RAG (LangChain + FAISS)** на закрытых внутренних документах.
 
