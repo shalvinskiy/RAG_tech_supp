@@ -1,0 +1,30 @@
+# Core
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+tqdm>=4.66.0
+tenacity>=8.2.0
+
+# Gemini API
+google-genai>=1.0.0
+
+# OpenAI-compatible client (Ollama endpoint)
+openai>=1.40.0
+
+# LangChain RAG stack
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-text-splitters>=0.3.0
+faiss-cpu>=1.8.0
+sentence-transformers>=3.0.0
+# embeddings: langchain_community.embeddings.HuggingFaceEmbeddings
+
+# Metrics
+evaluate>=0.4.0
+rouge-score>=0.1.2
+sacrebleu>=2.4.0
+nltk>=3.8.0
+
+# Utils
+numpy>=1.26.0
+pandas>=2.0.0
+tabulate>=0.9.0

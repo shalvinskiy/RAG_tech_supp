@@ -1,0 +1,28 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Generated artifacts
+indexes/
+results/*.json
+results/*.csv
+!results/.gitkeep
+
+# Models / caches
+.cache/
+models/
+*.bin
+*.safetensors
+*.gguf
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
